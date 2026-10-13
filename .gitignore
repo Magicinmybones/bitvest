@@ -1,0 +1,22 @@
+# Local build and dependencies
+dist/
+node_modules/
+.wrangler/
+.cache/
+coverage/
+
+# Local configuration and secrets
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+*.local
+
+# Logs, temporary files, and editor metadata
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
